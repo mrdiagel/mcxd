@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Ropa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Catálogo de Ropa</h1>
+    <button class="contact-btn" onclick="abrirWhatsApp('Hola, quiero más información del catálogo')">
+      Contacto por WhatsApp
+    </button>
+  </header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <section class="catalogo">
+    <!-- Producto 1 -->
+    <div class="producto" onclick="abrirModal('Camisa Blanca', '20$', 'S, M, L', 'camisa blanca')">
+      <img src="https://via.placeholder.com/200x250?text=Camisa+Blanca" alt="Camisas">
+      <h3>Camisas</h3>
+    </div>
+    <!-- Producto 2 -->
+    <div class="producto" onclick="abrirModal('Pantalón Negro', '25$', 'M, L, XL', 'pantalon negro')">
+       <a href="pantalon.html">
+        <img src="https://via.placeholder.com/200x250?text=Pantalon+Negro" alt="Pantalones">
+      <h3>Pantalón </h3>
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
