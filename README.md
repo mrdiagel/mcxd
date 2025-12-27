@@ -1,2 +1,0 @@
-# mcxd
-borro la cuenta
